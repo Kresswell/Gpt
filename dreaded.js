@@ -85,7 +85,7 @@ const maindev = '254798242085';
 const maindev2 = maindev.split(",");
 
     const packname = process.env.STICKER_PACKNAME || ' ';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '254798242085'
 
 const menu = process.env.MENU_TYPE || 'IMAGE';
  const DevDreaded = dev.split(",");
@@ -278,7 +278,7 @@ function _0x11cc() {
         'split',
         '84AXXWgJ',
         '4435424UJQIXb',
-        'y\x20Dreaded\x20',
+        'y\x20ᴇ͟s͟ᴄͥ͟ᴀ͟ʟͣ͟ɪͫ͟ʙ͟ᴜ͟ᴅ͟ᴅ\x20',
         'TRUE',
         '𝘵𝘪𝘉𝘰𝘵:\x0a\x0a@',
         '\x20as\x20a\x20bot.',
