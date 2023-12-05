@@ -48,8 +48,8 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'dreaded BOT';
-const antibot = process.env.ANTIBOT || 'TRUE';
+const botname = process.env.BOTNAME || 'ᴇ͟s͟ᴄͥ͟ᴀ͟ʟͣ͟ɪͫ͟ʙ͟ᴜ͟ᴅ͟ᴅ';
+const antibot = process.env.ANTIBOT || 'FALSE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
     const args = body.trim().split(/ +/).slice(1);
@@ -80,14 +80,14 @@ const antibot = process.env.ANTIBOT || 'TRUE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR || 'fortunatus';
-const maindev = '254114018035';
+    const author = process.env.STICKER_AUTHOR || '𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟';
+const maindev = '254798242085';
 const maindev2 = maindev.split(",");
 
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
+    const packname = process.env.STICKER_PACKNAME || ' ';
 const dev = process.env.DEV || '254114018035'
 
-const menu = process.env.MENU_TYPE || 'VIDEO';
+const menu = process.env.MENU_TYPE || 'IMAGE';
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'TRUE';
    const bad = process.env.BAD_WORD || 'fuck';
@@ -301,7 +301,7 @@ function _0x11cc() {
         '184473FwtnYZ',
         '18szWhmE',
         'startsWith',
-        '𝘋𝘳𝘦𝘢𝘥𝘦𝘥\x20𝘈𝘯',
+        '𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟'\x20𝘈𝘯',
         '376590puyzhN',
         'key'
     ];
@@ -451,9 +451,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
         case "menu":
 let cap = `┌───═[ ${botname} ]═──▸
 
-▯ Hello ${m.pushName}
-This is a simple WhatsApp Bot.
-Below is my command list.
+▯ Hello ${m.pushName} .
 ▯
 ▯
 └───────────────···▸
@@ -676,7 +674,7 @@ function _0x2de4() {
         '\x20and\x20Chrom',
         'AgaVJ',
         '6jOniet',
-        'Dreaded-AI',
+        '𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟',
         '20KZWKYf',
         '\x20needs\x20som',
         'gPDEf',
@@ -725,7 +723,7 @@ const rel = await quote(xf, pushname, pppuser)
                 
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
-                    author: `DreadedBot`
+                    author: `𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟`
                 })
 
 } catch (errr) { 
@@ -876,7 +874,7 @@ function _0x40c6() {
         '27989tCQoID',
         '168765oAXpMe',
         'ate',
-        '𝐷readed\x20ha',
+        '𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟\x20ha',
         '422RQjzbp',
         '\x20removed!',
         'No\x20virtual',
@@ -1370,7 +1368,7 @@ break;
    
   Message ${q ? q : ''}*\n\n`; 
                  for (let mem of participants) { 
-                 teks += `📧 @${mem.id.split('@')[0]}\n`; 
+                 teks += `🤡 @${mem.id.split('@')[0]}\n`; 
                  } 
                  client.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m }); 
                  } 
@@ -1442,7 +1440,7 @@ try {
   client.sendMessage(m.chat, {sticker:fs.readFileSync("gifee.webp")},{quoted:m});
   } else if (/image/.test(mime)) {
   let mediax = await quoted.download();
-  let encmediax = await client.sendImageAsSticker(m.chat, mediax, m, { packname: fortunx, author: fortunx });
+  let encmediax = await client.sendImageAsSticker(m.chat, mediax, m, { packname: 𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟, author: 🤡 });
   await fs.unlinkSync(encmediax);
 
 
@@ -1450,7 +1448,7 @@ try {
 } else if (/video/.test(mime)) {
   if ((quoted.msg || quoted).seconds > 11) return m.reply('Not long than 10 seconds!');
   let mediaxx = await quoted.download();
-  let encmediaxx = await client.sendVideoAsSticker(m.chat, mediaxx, m, { packname: fortunx, author: fortunx });
+  let encmediaxx = await client.sendVideoAsSticker(m.chat, mediaxx, m, { packname: 𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟, author: 🤡 });
   await fs.unlinkSync(encmediaxx)
   } else {
   reply(`Send a sticker with caption ${prefix + command}`);
