@@ -82,7 +82,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
             const qmsg = (quoted.msg || quoted);
     const author = process.env.STICKER_AUTHOR || '𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟';
 const maindev = '254114018035';
-const maindev2 = maindev.split("254754046165,25498242085");
+const maindev2 = maindev.split(",25498242085");
 
     const packname = process.env.STICKER_PACKNAME || ' ';
 const dev = process.env.DEV || '254798242085'
